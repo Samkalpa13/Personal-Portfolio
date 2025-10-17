@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio(Samkalpa)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c26d1cae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Samkalpa</span><br>Samanta from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Samkalpa is a go-getter who believes in facing challenges
+upfront and reasons out everything prior to action. Eager to
+learn and adapt quickly to new technologies and challenges.
+Proven ability to work effectively in teams and independently.
+Seeking an entry-level position where I can apply my
+knowledge, develop my skills, and contribute to meaningful
+projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java,C,Python</li>
+                            <li><span>Frameworks & Libraries</span><br>TensorFlow,OpenCV,Flask</li>
+                            <li><span>Tools & Databases</span><br>SQL</li>
+                            <li><span>Areas of Focus:</span><br>Machine Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>1st June-15th June 2025</span><br>Successfully completed the Study Abroad Program And Internship onArtificial Intelligence and MachineLearning fundamentals At NationalUniversity Of Singapore.</li>
+                            <li><span>2024-2025</span><br>Supported campus placementoperations</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>10th(2019-2020)</span><br>Zilla Public School</li>
+                            <li><span>12th(2021-2022)</span><br>Zilla Public School</li>
+                            <li><span>B.Tech(2022-2026)</span><br>University of Engineering & Management,Kolkata</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services-------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>
+                        Foundational Machine Learning Model Building
+                    </h2>
+                    <p>I take raw data and turn it into working solutions by applying core machine learning methods—like classification and regression—to solve practical problems. My work covers everything from cleaning up messy data to training and testing models, mainly using Scikit-learn to make sure the results are accurate and reliable.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>
+                        Deep Learning and Framework Proficiency
+                    </h2>
+                    <p>I go beyond basic algorithms by working with Deep Learning and using powerful tools like TensorFlow or PyTorch. This means I can tackle tougher challenges like analyzing images or text data, showing I'm ready to handle complex problems with modern neural network techniques.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>
+                        Data Analysis, Visualization, and Communication
+                    </h2>
+                    <p>I don't just build models; I make sense of the data. I use tools like Pandas and Matplotlib to explore data, find hidden insights, and create clear visuals. I then translate those technical findings into plain English, so anyone can understand the story the data and the model are telling.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ---------portfolio--------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/w-1.png">
+                    <div class="layer">
+                        <h3>CATARACT DETECTION USING MACHINE LEARNING</h3>
+                        <p>Developed a CNN-based model for automated cataract detection from medical images. Trained the model on a medical dataset to achieve high accuracy in classification. Developed a user-friendly interface for automated diagnosis and visualization of results</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/w-2.png">
+                    <div class="layer">
+                        <h3>SUDOKU SOLVER</h3>
+                        <p>Built a Sudoku Solver in Java using backtracking and constraint satisfaction techniques. Designed an efficient algorithm to solve puzzles of varying difficulty levels. Developed a user-friendly interface for inputting and visualizing Sudoku solutions
+</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/w-3.png">
+                    <div class="layer">
+                        <h3>INTRUSION DETECTION SYSTEM(ONGOING)</h3>
+                        <p>Designing an Intrusion Detection System (IDS) using Deep Learning to analyze network traffic and detect cyber threats.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- --------contact------ -->
+       <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>ssamkalpa@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+91 9476434222</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/samkalpa_13/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/samkalpa-samanta-71b60128a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/settings/profile"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/Sam-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Samkalpa.Made with<i class="fa-solid fa-heart"></i></p>
+        </div>
+       </div>
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwYz13eJhgd2O5qUCXl-lrvr8iyH7T6cBEqj1iPE8xgtpN6ooC2kGFV4u7Ckl2JeqSi/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
